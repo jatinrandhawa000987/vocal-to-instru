@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Generated output
+outputs/*
+!outputs/.gitkeep
+
+# Private datasets and recordings
+data/samples/*
+!data/samples/.gitkeep
+
+# Model artifacts
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
